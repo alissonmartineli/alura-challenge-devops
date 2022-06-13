@@ -1,0 +1,4 @@
+[submodule "aluraflix"]
+	path = aluraflix
+	url = https://github.com/alura-cursos/drf_teste_documentacao.git
+	branch = aula_5

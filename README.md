@@ -5,7 +5,7 @@ O desafio consiste em preparar uma aplicação, previamente desenvolvida, para p
 ### Etapas do challenge
 
 - [x] Dockerizar a aplicação
-- [ ] Realizar deploy na nuvem
+- [x] Realizar deploy na nuvem
 - [ ] Implantar rotinas de CI/CD
 
 ## Processo para execução da aplicação dockerzida

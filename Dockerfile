@@ -16,6 +16,7 @@ COPY ./aluraflix .
 
 EXPOSE 8000
 
+RUN sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \['*']/" setup/settings.py
 RUN python manage.py migrate &&\
     python manage.py createsuperuser --noinput
 
